@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F484DA301B0B3A4800484668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA2F1B0B3A4800484668 /* main.m */; };
+		F484DA331B0B3A4800484668 /* sdmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA321B0B3A4800484668 /* sdmAppDelegate.m */; };
+		F484DA3B1B0B3A4800484668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484DA3A1B0B3A4800484668 /* Images.xcassets */; };
+		F484DA3E1B0B3A4800484668 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F484DA3C1B0B3A4800484668 /* LaunchScreen.xib */; };
+		F484DA4A1B0B3A4800484668 /* CatFeverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA491B0B3A4800484668 /* CatFeverTests.m */; };
+		F484DA581B0B3BAE00484668 /* sdmRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA571B0B3BAE00484668 /* sdmRootView.m */; };
+		F484DA5C1B0B3DB900484668 /* sdmDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA5B1B0B3DB900484668 /* sdmDataSource.m */; };
+		F484DA5F1B0B3DEE00484668 /* sdmTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA5E1B0B3DEE00484668 /* sdmTableViewDataSource.m */; };
+		F484DA651B0B468300484668 /* sdmRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F484DA641B0B468300484668 /* sdmRootTableViewCell.m */; };
+		F49798951B3808EF00D784AF /* sdmRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49798941B3808EF00D784AF /* sdmRootController.m */; };
+		F4A5E5B11B3180E200CDF692 /* sdmFeverDataSourceSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E5B01B3180E200CDF692 /* sdmFeverDataSourceSection.m */; };
+		F4A5E5BE1B32C14A00CDF692 /* UIImageView+sdmNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E5BD1B32C14A00CDF692 /* UIImageView+sdmNetworking.m */; };
+		F4B02CF81B1EF6C800B28FB5 /* sdmDataSourceSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B02CF71B1EF6C800B28FB5 /* sdmDataSourceSection.m */; };
+		F4DFDC251B32F31200B929EE /* Interface.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DFDC241B32F31200B929EE /* Interface.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F484DA441B0B3A4800484668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F484DA221B0B3A4800484668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F484DA291B0B3A4800484668;
+			remoteInfo = BlackSwanFever;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F484DA2A1B0B3A4800484668 /* CatFever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F484DA2E1B0B3A4800484668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F484DA2F1B0B3A4800484668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F484DA311B0B3A4800484668 /* sdmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdmAppDelegate.h; sourceTree = "<group>"; };
+		F484DA321B0B3A4800484668 /* sdmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdmAppDelegate.m; sourceTree = "<group>"; };
+		F484DA3A1B0B3A4800484668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F484DA3D1B0B3A4800484668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F484DA431B0B3A4800484668 /* CatFeverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatFeverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F484DA481B0B3A4800484668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F484DA491B0B3A4800484668 /* CatFeverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatFeverTests.m; sourceTree = "<group>"; };
+		F484DA561B0B3BAE00484668 /* sdmRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmRootView.h; sourceTree = "<group>"; };
+		F484DA571B0B3BAE00484668 /* sdmRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmRootView.m; sourceTree = "<group>"; };
+		F484DA5A1B0B3DB900484668 /* sdmDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmDataSource.h; sourceTree = "<group>"; };
+		F484DA5B1B0B3DB900484668 /* sdmDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmDataSource.m; sourceTree = "<group>"; };
+		F484DA5D1B0B3DEE00484668 /* sdmTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmTableViewDataSource.h; sourceTree = "<group>"; };
+		F484DA5E1B0B3DEE00484668 /* sdmTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmTableViewDataSource.m; sourceTree = "<group>"; };
+		F484DA631B0B468300484668 /* sdmRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmRootTableViewCell.h; sourceTree = "<group>"; };
+		F484DA641B0B468300484668 /* sdmRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmRootTableViewCell.m; sourceTree = "<group>"; };
+		F49798931B3808EF00D784AF /* sdmRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmRootController.h; sourceTree = "<group>"; };
+		F49798941B3808EF00D784AF /* sdmRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmRootController.m; sourceTree = "<group>"; };
+		F4A5E5AF1B3180E200CDF692 /* sdmFeverDataSourceSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmFeverDataSourceSection.h; sourceTree = "<group>"; };
+		F4A5E5B01B3180E200CDF692 /* sdmFeverDataSourceSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmFeverDataSourceSection.m; sourceTree = "<group>"; };
+		F4A5E5BC1B32C14A00CDF692 /* UIImageView+sdmNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+sdmNetworking.h"; sourceTree = "<group>"; };
+		F4A5E5BD1B32C14A00CDF692 /* UIImageView+sdmNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+sdmNetworking.m"; sourceTree = "<group>"; };
+		F4B02CF61B1EF6C800B28FB5 /* sdmDataSourceSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdmDataSourceSection.h; sourceTree = "<group>"; };
+		F4B02CF71B1EF6C800B28FB5 /* sdmDataSourceSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sdmDataSourceSection.m; sourceTree = "<group>"; };
+		F4DFDC241B32F31200B929EE /* Interface.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Interface.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F484DA271B0B3A4800484668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F484DA401B0B3A4800484668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F484DA211B0B3A4800484668 = {
+			isa = PBXGroup;
+			children = (
+				F484DA2C1B0B3A4800484668 /* CatFever */,
+				F484DA461B0B3A4800484668 /* CatFeverTests */,
+				F484DA2B1B0B3A4800484668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F484DA2B1B0B3A4800484668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA2A1B0B3A4800484668 /* CatFever.app */,
+				F484DA431B0B3A4800484668 /* CatFeverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F484DA2C1B0B3A4800484668 /* CatFever */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA311B0B3A4800484668 /* sdmAppDelegate.h */,
+				F484DA321B0B3A4800484668 /* sdmAppDelegate.m */,
+				F4A5E5B41B32C09D00CDF692 /* Network */,
+				F484DA551B0B3ABA00484668 /* Model */,
+				F484DA531B0B3A9900484668 /* Controller */,
+				F484DA541B0B3AA900484668 /* View */,
+				F484DA3A1B0B3A4800484668 /* Images.xcassets */,
+				F484DA3C1B0B3A4800484668 /* LaunchScreen.xib */,
+				F4DFDC221B32F2F100B929EE /* Resource */,
+				F484DA2D1B0B3A4800484668 /* Supporting Files */,
+			);
+			path = CatFever;
+			sourceTree = "<group>";
+		};
+		F484DA2D1B0B3A4800484668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA2E1B0B3A4800484668 /* Info.plist */,
+				F484DA2F1B0B3A4800484668 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F484DA461B0B3A4800484668 /* CatFeverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA491B0B3A4800484668 /* CatFeverTests.m */,
+				F484DA471B0B3A4800484668 /* Supporting Files */,
+			);
+			path = CatFeverTests;
+			sourceTree = "<group>";
+		};
+		F484DA471B0B3A4800484668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA481B0B3A4800484668 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F484DA531B0B3A9900484668 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F49798931B3808EF00D784AF /* sdmRootController.h */,
+				F49798941B3808EF00D784AF /* sdmRootController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F484DA541B0B3AA900484668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA561B0B3BAE00484668 /* sdmRootView.h */,
+				F484DA571B0B3BAE00484668 /* sdmRootView.m */,
+				F484DA631B0B468300484668 /* sdmRootTableViewCell.h */,
+				F484DA641B0B468300484668 /* sdmRootTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F484DA551B0B3ABA00484668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA591B0B3D6400484668 /* DataSource */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F484DA591B0B3D6400484668 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F484DA5A1B0B3DB900484668 /* sdmDataSource.h */,
+				F484DA5B1B0B3DB900484668 /* sdmDataSource.m */,
+				F484DA5D1B0B3DEE00484668 /* sdmTableViewDataSource.h */,
+				F484DA5E1B0B3DEE00484668 /* sdmTableViewDataSource.m */,
+				F4B02CF61B1EF6C800B28FB5 /* sdmDataSourceSection.h */,
+				F4B02CF71B1EF6C800B28FB5 /* sdmDataSourceSection.m */,
+				F4A5E5AF1B3180E200CDF692 /* sdmFeverDataSourceSection.h */,
+				F4A5E5B01B3180E200CDF692 /* sdmFeverDataSourceSection.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		F4A5E5B41B32C09D00CDF692 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5E5BC1B32C14A00CDF692 /* UIImageView+sdmNetworking.h */,
+				F4A5E5BD1B32C14A00CDF692 /* UIImageView+sdmNetworking.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F4DFDC221B32F2F100B929EE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFDC231B32F30600B929EE /* Json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F4DFDC231B32F30600B929EE /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFDC241B32F31200B929EE /* Interface.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F484DA291B0B3A4800484668 /* CatFever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F484DA4D1B0B3A4800484668 /* Build configuration list for PBXNativeTarget "CatFever" */;
+			buildPhases = (
+				F484DA261B0B3A4800484668 /* Sources */,
+				F484DA271B0B3A4800484668 /* Frameworks */,
+				F484DA281B0B3A4800484668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatFever;
+			productName = BlackSwanFever;
+			productReference = F484DA2A1B0B3A4800484668 /* CatFever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F484DA421B0B3A4800484668 /* CatFeverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F484DA501B0B3A4800484668 /* Build configuration list for PBXNativeTarget "CatFeverTests" */;
+			buildPhases = (
+				F484DA3F1B0B3A4800484668 /* Sources */,
+				F484DA401B0B3A4800484668 /* Frameworks */,
+				F484DA411B0B3A4800484668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F484DA451B0B3A4800484668 /* PBXTargetDependency */,
+			);
+			name = CatFeverTests;
+			productName = BlackSwanFeverTests;
+			productReference = F484DA431B0B3A4800484668 /* CatFeverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F484DA221B0B3A4800484668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Spencer's digital media";
+				TargetAttributes = {
+					F484DA291B0B3A4800484668 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F484DA421B0B3A4800484668 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F484DA291B0B3A4800484668;
+					};
+				};
+			};
+			buildConfigurationList = F484DA251B0B3A4800484668 /* Build configuration list for PBXProject "CatFever" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F484DA211B0B3A4800484668;
+			productRefGroup = F484DA2B1B0B3A4800484668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F484DA291B0B3A4800484668 /* CatFever */,
+				F484DA421B0B3A4800484668 /* CatFeverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F484DA281B0B3A4800484668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F484DA3E1B0B3A4800484668 /* LaunchScreen.xib in Resources */,
+				F4DFDC251B32F31200B929EE /* Interface.json in Resources */,
+				F484DA3B1B0B3A4800484668 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F484DA411B0B3A4800484668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F484DA261B0B3A4800484668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49798951B3808EF00D784AF /* sdmRootController.m in Sources */,
+				F4A5E5B11B3180E200CDF692 /* sdmFeverDataSourceSection.m in Sources */,
+				F484DA331B0B3A4800484668 /* sdmAppDelegate.m in Sources */,
+				F4A5E5BE1B32C14A00CDF692 /* UIImageView+sdmNetworking.m in Sources */,
+				F484DA301B0B3A4800484668 /* main.m in Sources */,
+				F484DA651B0B468300484668 /* sdmRootTableViewCell.m in Sources */,
+				F484DA581B0B3BAE00484668 /* sdmRootView.m in Sources */,
+				F484DA5C1B0B3DB900484668 /* sdmDataSource.m in Sources */,
+				F484DA5F1B0B3DEE00484668 /* sdmTableViewDataSource.m in Sources */,
+				F4B02CF81B1EF6C800B28FB5 /* sdmDataSourceSection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F484DA3F1B0B3A4800484668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F484DA4A1B0B3A4800484668 /* CatFeverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F484DA451B0B3A4800484668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F484DA291B0B3A4800484668 /* CatFever */;
+			targetProxy = F484DA441B0B3A4800484668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F484DA3C1B0B3A4800484668 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F484DA3D1B0B3A4800484668 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F484DA4B1B0B3A4800484668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F484DA4C1B0B3A4800484668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F484DA4E1B0B3A4800484668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/CatFever/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CatFever;
+			};
+			name = Debug;
+		};
+		F484DA4F1B0B3A4800484668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/CatFever/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CatFever;
+			};
+			name = Release;
+		};
+		F484DA511B0B3A4800484668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CatFeverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CatFeverTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatFever.app/CatFever";
+			};
+			name = Debug;
+		};
+		F484DA521B0B3A4800484668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CatFeverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CatFeverTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatFever.app/CatFever";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F484DA251B0B3A4800484668 /* Build configuration list for PBXProject "CatFever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F484DA4B1B0B3A4800484668 /* Debug */,
+				F484DA4C1B0B3A4800484668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F484DA4D1B0B3A4800484668 /* Build configuration list for PBXNativeTarget "CatFever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F484DA4E1B0B3A4800484668 /* Debug */,
+				F484DA4F1B0B3A4800484668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F484DA501B0B3A4800484668 /* Build configuration list for PBXNativeTarget "CatFeverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F484DA511B0B3A4800484668 /* Debug */,
+				F484DA521B0B3A4800484668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F484DA221B0B3A4800484668 /* Project object */;
+}
